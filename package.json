@@ -1,0 +1,18 @@
+{
+  "name": "ccfine24",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "pm2 deploy ecosystem.config.js production setup",
+    "deploy": "pm2 deploy ecosystem.config.js production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccfine/ccfine24.git"
+  },
+  "author": "ccfine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccfine/ccfine24/issues"
+  },
+  "homepage": "https://github.com/ccfine/ccfine24#readme"
+}
