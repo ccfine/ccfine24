@@ -5,8 +5,45 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
     <title>ccfine24的首页</title>
+    <style>
+      .container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .header {
+        margin: 100px 0 50px;
+      }
+      li {
+        margin-top: 40px;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #086EFF;
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
-    <div>你好，我叫陈景腾</div>
+    <div class="container">
+      <div class="header">你好，我叫陈景腾。欢迎来到我的世界</div>
+      <div>网站列表</div>
+      <ul>
+        <li>
+          <a href="http://blog.ccfine24.com" target="_blank">陈景腾的博客（http://blog.ccfine24.com）</a>
+        </li>
+        <li>
+          <a href="http://recruit.ccfine24.com" target="_blank">招聘App（http://recruit.ccfine24.com）</a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
